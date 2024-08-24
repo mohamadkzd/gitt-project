@@ -36,3 +36,18 @@ a {
     }
   }
 }
+.section-1{
+  margin-top: 10px;
+  display: flex;
+  color:white;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap:20px ;
+  row-gap: 20px;
+  >div{
+    width: 48%;
+    background: #2b2b2b;
+    padding: 10px;
+  }
+}
